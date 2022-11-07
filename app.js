@@ -57,5 +57,12 @@ if (gender.toLocaleLowerCase === "female") {
     console.log("You should go to right");//не отображается в консоли 
 }
 
+const isAdmin = true; //result
+const typeUserString = isAdmin ? ' Администратор' : 'Пользователь';//выводить пользователя строкой
+console.log (`Добро пожаловать:${typeUserString}`);//выводить пользователя строкой
+
+const isAdmin = true; //result
+console.log (`Добро пожаловать:${isAdmin ? ' Администратор' : 'Пользователь'}`);
+
 
 

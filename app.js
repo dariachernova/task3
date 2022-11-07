@@ -7,8 +7,11 @@ if (5>4) {
 
 const age = 15;
 if (age > 18) {//false
-    console.log("You older than 18");//в консоли ничего не выводится пропускается выполнение этого блока и переходим на строку 12
+    console.log("Вам больше 18 лет");//в консоли ничего не выводится пропускается выполнение этого блока и переходим на строку 12 которая была пустая
+} else {
+    console.log ("Вам меньше 18 лет");//то есть в консоли выводится это!
 }
+
 const gender = "male"//"female"
 if (gender.toLocaleLowerCase === "male") {//сначала все переведется в нижний регистр а потом уже будем сравниваться с ===male
     console.log("You should go to left");
@@ -16,3 +19,4 @@ if (gender.toLocaleLowerCase === "male") {//сначала все перевед
 if (gender.toLocaleLowerCase === "female") {
     console.log("You should go to right");//не отображается в консоли 
 }
+
